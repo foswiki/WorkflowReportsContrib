@@ -3,7 +3,8 @@ use strict;
 package WorkflowReportsContribTests;
 
 use FoswikiTestCase;
-use base qw( FoswikiTestCase );
+use FoswikiTestCase;
+our @ISA = qw( FoswikiTestCase );
 
 use strict;
 use TWiki;
